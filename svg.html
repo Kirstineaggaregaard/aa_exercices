@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>First SVG</title>
+  </head>
+  <body>
+    <h1>My SVG</h1>
+    <svg width="400" height="400">
+      <rect x="10" y="10" width="30" height="30" fill="transparent" stroke="black" />
+      <circle cx="25" cy="75" r="20" fill="transparent" stroke="red" />
+      <ellipse cx="75" cy="115" rx="30" ry="10" fill="transparent" stroke="blue" />
+      <line x1="10" x2="50" y1="110" y2="150" stroke="green" />
+
+      <polyline points="10 10 25 75 75 115 30 130" stroke="orange" fill="transparent" stroke-width="3" />
+
+      <path d="M 10 10 25 75, 75 115 T 30 130 Z" stroke="purple" fill="transparent" />
+
+      <path d="M 10 10 Q 10 80, 60 100 T 30 130 " stroke="yellow" fill="transparent" />
+    </svg>
+  </body>
+</html>
